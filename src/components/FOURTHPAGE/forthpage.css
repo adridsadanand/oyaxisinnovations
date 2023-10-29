@@ -1,0 +1,95 @@
+.frth_majrdiv {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.frth_imgisde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-left: 300px;
+
+
+}
+
+.frth_dataisde {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 500px;
+
+
+
+}
+
+.frthimg_adri {
+
+    width: 150%;
+    height: 100%;
+    margin-right: 150px;
+    object-fit: contain;
+    
+
+
+}
+.frthimg_agney{
+width: 60%;
+height: 80%;
+margin-right:100px;
+object-fit: contain;
+
+}
+.frth_para {
+    font-family: 'Nunito', sans-serif;
+    color: aliceblue;
+    font-size: medium;
+    margin: 25px;
+
+}
+
+.Frth_name_tag {
+    font-size: 1.3rem;
+    color: wheat;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.frth_designation {
+    color: rgb(158, 156, 153);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .frth_majrdiv {
+        height: auto;
+    }
+
+    .frth_imgisde {
+        margin-bottom: 0;
+        padding-left: 40px;
+        width: 100%;
+        height: 100vh;
+    }
+    .frth_dataisde {
+        padding: 0;
+    }
+.frthimg_agney{
+   
+    margin: 0;
+
+}
+.frth_designation {
+    margin-bottom: 50px;
+}
+
+}
