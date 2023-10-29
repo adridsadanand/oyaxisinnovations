@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/oyaxisinnovations/static/css/main.061e09ef.css",
+    "main.js": "/oyaxisinnovations/static/js/main.371868ac.js",
+    "static/media/Robotics.jpg": "/oyaxisinnovations/static/media/Robotics.ce374ef2584737e69dd8.jpg",
+    "static/media/herovideo.mp4": "/oyaxisinnovations/static/media/herovideo.95d6477ee4b40ab65a74.mp4",
+    "static/media/cleanenergy.jpg": "/oyaxisinnovations/static/media/cleanenergy.e62721f1a186068fff1d.jpg",
+    "static/media/droneimage.png": "/oyaxisinnovations/static/media/droneimage.37fc3feae6a74ea6bc82.png",
+    "static/media/iotimg.jpg": "/oyaxisinnovations/static/media/iotimg.ea192ce4064f0e2315a2.jpg",
+    "static/media/agney.png": "/oyaxisinnovations/static/media/agney.98af1db6507e66dde6ed.png",
+    "static/media/logo.svg": "/oyaxisinnovations/static/media/logo.f0046b1ee1c7272dc1adfdc0010a5bbe.svg",
+    "static/media/adrid.png": "/oyaxisinnovations/static/media/adrid.4e85550474489d181506.png",
+    "index.html": "/oyaxisinnovations/index.html",
+    "main.061e09ef.css.map": "/oyaxisinnovations/static/css/main.061e09ef.css.map",
+    "main.371868ac.js.map": "/oyaxisinnovations/static/js/main.371868ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.061e09ef.css",
+    "static/js/main.371868ac.js"
+  ]
+}
