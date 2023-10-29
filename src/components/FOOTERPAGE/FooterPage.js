@@ -12,26 +12,30 @@ function FooterPage() {
     <hr className='Fotr_undrlin'/>
 <Container>
 
-<Row xs={1} md={2}>
-
-        <Col>
+<Row xs={1} md={1}>
+<Col>
+<Row xs={1} md={3}>
+        <Col  md={{ order: 'first' }}>
         <div ><h1 className='Footer_logo'>OYAXIS INNOVATIONS</h1>
         </div>
         
         </Col>
+       <Col xs={{ order: 'first' }}>
         <p className='fotr_log_tag'>"INSPIRE INNOVATE & TRANSFORM"</p>
+       </Col>
+        
+        
+        <Col>
+
         <div className='ftr_cntc_dv'>
             
             <p  className='fotr_cntct_tag'>oyaxisinnovations@gmail.com</p>
             
             <div className='fotr_social_app'><RiTwitterXFill/> <FaLinkedinIn/> <FiFacebook/> <CiInstagram/></div>
         </div>
-
-        
-        <Col>
-
-
         </Col>
+        </Row>
+    </Col>
         <Col className='fotr_cpyrtdiv' md={12}>
           <hr className='Fotr_undrlin'></hr>
           <p>Copyright © 2023 oyaxis innovations</p>

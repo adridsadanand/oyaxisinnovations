@@ -1,7 +1,5 @@
 .Footer_mjrdiv {
     width: 100%;
-
-    position: relative;
     height: auto;
     display: flex;
     justify-content: center;
@@ -20,12 +18,11 @@
 
 .fotr_log_tag {
     
-    flex-direction: row;
-    margin: 20px;
-    position: absolute;
-    left: 480px;
-    top: 50px;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    
 
 }
 
@@ -52,11 +49,10 @@
 .fotr_social_app {
     display: flex;
     justify-content: center;
-    align-self: end;
+    align-items:center;
     flex-direction: row;
-    border-radius: 5px;
-    width: 200px;
-
+    margin-left: 150px;
+   
 }
 
 .Fotr_undrlin {
@@ -82,24 +78,14 @@
     .ftr_cntc_dv {
 
         text-align: center;
-        position: relative;
+        
 
     }
+
 
     .fotr_social_app {
-        position: absolute;
-        left: 31%;
-        top: 90%;
+
+        margin-left: 0;
+       
     }
-
-    .fotr_log_tag {
-
-
-       left: 100px;
-        top:20px;
-     
-      
-
-    }
-
 }
