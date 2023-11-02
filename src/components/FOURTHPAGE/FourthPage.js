@@ -1,8 +1,8 @@
 import React from 'react'
 import './forthpage.css'
 import { Container, Row, Col } from 'react-bootstrap'
-import Adrid from "../../assets/adrid.png"
-import Agney from "../../assets/agney.png"
+// import Adrid from "../../assets/adrid.png"
+// import Agney from "../../assets/agney.png"
 
 import Carousel from 'react-bootstrap/Carousel';
 function FourthPage() {
@@ -19,10 +19,10 @@ function FourthPage() {
             <h1 className='Frth_name_tag'>Agney Sadanand.P</h1>
             <p className='frth_designation'>~CEO/CoFounder~</p>
           </Col>
-          <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='frth_imgisde' >
+          {/* <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='frth_imgisde' >
 
             <img className='frthimg_agney' alt="imageofceo" src={Agney} />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       </Carousel.Item>
@@ -35,10 +35,10 @@ function FourthPage() {
             <h1 className='Frth_name_tag'>Adrid Sadanand.P</h1>
             <p className='frth_designation'>~CTO/CoFounder~</p>
           </Col>
-          <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='frth_imgisde' >
+          {/* <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='frth_imgisde' >
 
             <img className='frthimg_adri' alt="imageofcto" src={Adrid} />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       </Carousel.Item>

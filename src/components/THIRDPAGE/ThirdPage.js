@@ -5,6 +5,11 @@ import './thirdpage.css'
 import iotimg from "../../assets/iotimg.jpg"
 import cleanenrgy from "../../assets/cleanenergy.jpg"
 import Robotics from "../../assets/Robotics.jpg"
+import agriculture from "../../assets/agri.jpg"
+import learning from "../../assets/arvr.jpg"
+import health from "../../assets/helth.jpg"
+
+
 
 function ThirdPage() {
   // Create an array of data for your cards
@@ -25,19 +30,19 @@ function ThirdPage() {
       description: 'This are two related but distinct concepts that involve using technology to perform tasks that are usually done by humans. Robotics is a branch of engineering that deals with designing, building, programming, and using robots autonomously. Automation is the process of using computer software, machines, or other devices to control and execute tasks without human intervention',
     },
     {
-      imageSrc: 'https://media-www.sqspcdn.com/images/components/templates/desktop/emmeline-1500w.jpg',
+      imageSrc: agriculture,
       heading: 'Agriculture Technology',
-      description: 'Description 2: Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+      description: 'Discover the future of farming with our innovative AgTech solutions, empowering modern farmers to enhance efficiency and boost yields. Explore the latest trends in precision farming, smart irrigation, and data-driven insights, revolutionizing the agricultural landscape. We provide expert guidance and top-notch AgTech products for sustainable and profitable agriculture. Experience the future of farming today',
     },
     {
-      imageSrc: 'https://media-www.sqspcdn.com/images/components/templates/desktop/emmeline-1500w.jpg',
-      heading: 'Heading 2',
-      description: 'Description 2: Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+      imageSrc: health ,
+      heading: 'Quantified Self & Health Tech',
+      description: 'Unlock Your Full Potential with Quantified Self & Health Tech. Explore cutting-edge solutions that empower you to monitor, optimize, and transform your well-being. From wearables to data-driven insights, our Health Tech innovations put you in control. Achieve your health and fitness goals, track progress, and live a healthier life with the latest Quantified Self technology',
     },
     {
-      imageSrc: 'https://media-www.sqspcdn.com/images/components/templates/desktop/emmeline-1500w.jpg',
-      heading: 'Heading 2',
-      description: 'Description 2: Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+      imageSrc: learning,
+      heading: 'Intractive Learning Solutions',
+      description: 'Elevate Learning with Interactive AR and VR Solutions. Discover immersive educational experiences that engage and inspire. Our Interactive Learning Solutions blend AR and VR technologies to create dynamic, interactive lessons. Transform traditional learning into captivating adventures for students of all ages. Explore the future of education with our AR and VR solutions.',
     },
   ];
 
